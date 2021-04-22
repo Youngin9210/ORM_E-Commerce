@@ -1,8 +1,8 @@
-// including Model and DataTypes from sequelize
+// importing important parts of sequelize library
 const { Model, DataTypes } = require("sequelize");
-// including connection requirement to connect to db
+// importing database connection from config.js
 const sequelize = require("../config/connection.js");
-// extending Model with constructor class Category
+// Category model (table) by extends off Sequelize's Model class
 class Category extends Model {}
 // initializing Category model
 Category.init(
