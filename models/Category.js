@@ -1,12 +1,13 @@
+// including Model and DataTypes from sequelize
 const { Model, DataTypes } = require("sequelize");
-
+// including connection requirement to connect to db
 const sequelize = require("../config/connection.js");
-
+// extending Model with constructor class Category
 class Category extends Model {}
-
+// initializing Category model
 Category.init(
   {
-    // define columns
+    // defining columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -26,5 +27,5 @@ Category.init(
     modelName: "category",
   }
 );
-
+// exporting Category for later use
 module.exports = Category;
