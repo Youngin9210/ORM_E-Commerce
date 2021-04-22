@@ -30,6 +30,8 @@ A nodeJs app to create an Express.js API. This app uses Sequelize to interact wi
 
 ## Screenshot
 
+Using Insomnia to perform Express.js routes
+
 ![image](readmeAssets/screenshot.png)
 
 If you would like to see a video of how it works then click the link below
